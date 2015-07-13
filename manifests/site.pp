@@ -60,7 +60,7 @@ node default {
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
+  #  fail('Please enable full disk encryption and try again')
   }
 
   # node versions
